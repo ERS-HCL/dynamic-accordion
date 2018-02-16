@@ -5,9 +5,9 @@ We can use the accordion component this is a re-usable component.
 
 ## Output Format
 
- <p align='center'><img src="https://github.com/KNVSAIRAM/Dynamic-Accordion/blob/master/src/assets/accordion.png"></p>
+ <p align='center'><img src="https://github.com/KNVSAIRAM/dynamic-accordion/blob/master/Images/output.jpg"></p>
  
- To preview demo of dynamic accorion project, [Click here](https://stackblitz.com/edit/angular-dynamic-accordion?embed=1&file=src/index.html&hideExplorer=1&hideNavigation=1&view=preview)
+ To preview demo of dynamic accorion project, [Click here](https://stackblitz.com/edit/angular-json-to-accordion?embed=1&file=src/app/app.component.ts&hideNavigation=1&view=preview)
  
  
 ## Getting Started
