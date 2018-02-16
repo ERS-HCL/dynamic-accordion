@@ -1,0 +1,23 @@
+<div class="container">
+<h1 class='text-success text'>{{title}}</h1>
+  <div class="panel-group" id="accordion">
+      <div class="panel panel-default" *ngFor='let x of jsonData;index as i'>
+          <div class="panel-heading">
+              <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{i}}">{{x.heading}}</a>
+              </h4>
+          </div>
+      <span *ngIf='x.status=="open" else notIn'>
+          <div id="collapse{{i}}" class="panel-collapse collapse in">
+                <textarea class="panel-body form-control">{{x.data}}</textarea>
+          </div>
+      </span>
+      <ng-template #notIn>
+          <div id="collapse{{i}}" class="panel-collapse collapse">
+                <textarea class="panel-body form-control">{{x.data}}</textarea>
+          </div>
+      </ng-template>
+      </div>
+  </div>
+</div>
+
