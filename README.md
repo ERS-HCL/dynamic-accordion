@@ -20,7 +20,7 @@ Download the Dynamic accordion folder and install the required packages and run 
     - ng serve
 
 ## Adding accordion list component in your project
-Download the accordion.component to your angular material project and include required components from angular material.
+Download the accordion.component and use it in your project.
 
 ####  Use this below syntax to send data to accordion component
 
