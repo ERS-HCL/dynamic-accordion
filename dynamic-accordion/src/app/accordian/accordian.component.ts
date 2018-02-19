@@ -7,7 +7,7 @@ import {AccordionInfo} from "../accordion-info";
   styleUrls: ['./accordian.component.css']
 })
 export class AccordianComponent {
-  @Input('jsonData') jsonData:AccordionInfo;
+  @Input('jsonData') jsonData:AccordionInfo[];
   constructor(){}
   title="Json data to Accordion using Bootstrap"
 }
