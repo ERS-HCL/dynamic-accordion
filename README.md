@@ -65,7 +65,7 @@ whether is it open or close based on the status using *ngIf.
  ```
   AccordionInfo {
       heading:string;
-      data:any;
+      data:string;
       status:boolean;
  }
 ```
