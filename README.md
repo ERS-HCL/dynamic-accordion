@@ -25,16 +25,15 @@ Download the accordion.component and use it in your project.
 ####  Use this below syntax to send data to accordion component
 
     <app-accordian [jsonData]='jsonData'></app-accordian>
-
-#### json Data format is
-    [
-    {   
-        "heading":"---",
-        "data": "----",
-        "status":"---"  (open/close)
-    },
-    -----
-    ]
+### Accordion-info Interface
+ jsonData is the input of type accordion-info.
+ ```
+  AccordionInfo {
+      heading:string;
+      data:string;
+      status:boolean;
+ }
+```
 **_Note : Please refer the Json file in assets folder_**
 
 #### Json Description
@@ -60,13 +59,5 @@ Download the accordion.component and use it in your project.
 In accordion we use *NgFor loop to iterate the json Data inside the for loop and then it checks the condition 
 whether is it open or close based on the status using *ngIf.
 
-### Accordion-info Interface
- jsonData is the input of type accordion-info.
- ```
-  AccordionInfo {
-      heading:string;
-      data:string;
-      status:boolean;
- }
-```
+
   
