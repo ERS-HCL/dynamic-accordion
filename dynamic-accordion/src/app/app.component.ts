@@ -10,12 +10,31 @@ import {AccordionInfo} from "./accordion-info";
 })
 export class AppComponent {
   title = 'Json Data';
-  jsonData:AccordionInfo[];
-  constructor(private http: Http) { }
-  ngOnInit() {
-    this.http.get('../assets/Accordion.json').map((res) => <AccordionInfo[]>res.json()).subscribe((data) => this.Display(data));
-  }
-  Display(data:AccordionInfo[]) {
-    this.jsonData = data;
-  }
+  jsonData:AccordionInfo[]=
+  [{
+    "heading": "content1",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": true
+  },
+  {
+    "heading": "content2",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  },
+  {
+    "heading": "content3",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  },
+  {
+    "heading": "content4",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  },
+  {
+    "heading": "content5",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  }];
+;
 }
