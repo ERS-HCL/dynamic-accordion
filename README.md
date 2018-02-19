@@ -25,8 +25,8 @@ Download the accordion.component and use it in your project.
 ####  Use this below syntax to send data to accordion component
 
     <app-accordian [jsonData]='jsonData'></app-accordian>
-### accordion-info Interface
- jsonData is the input of type accordion-info.
+### AccordionInfo Interface
+ jsonData is the input of type AccordionInfo
  ```
   AccordionInfo {
       heading:string;
