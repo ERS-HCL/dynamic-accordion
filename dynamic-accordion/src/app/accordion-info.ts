@@ -2,7 +2,7 @@ export interface AccordionInfo {
 
     heading: string;
 
-    data: any;
+    data: string;
 
     status: boolean;
 
