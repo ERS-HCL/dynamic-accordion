@@ -10,10 +10,10 @@ import {AccordionInfo} from "./accordion-info";
 })
 export class AppComponent {
   title = 'Json Data';
-  jsonData:string;
+  jsonData:AccordionInfo[];
   constructor(private http: Http) { }
   ngOnInit() {
-    this.http.get<AccordionInfo>('../assets/Accordion.json').map((res) => res.json()).subscribe((data) => this.Display(data));
+    this.http.get('../assets/Accordion.json').map((res) => res.json()).subscribe((data) => this.Display(data));
   }
   Display(data:string) {
     this.jsonData = data;
