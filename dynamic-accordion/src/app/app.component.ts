@@ -13,9 +13,9 @@ export class AppComponent {
   jsonData:AccordionInfo[];
   constructor(private http: Http) { }
   ngOnInit() {
-    this.http.get('../assets/Accordion.json').map((res) => res.json()).subscribe((data) => this.Display(data));
+    this.http.get('../assets/Accordion.json').map((res) => <AccordionInfo[]>res.json()).subscribe((data) => this.Display(data));
   }
-  Display(data:string) {
+  Display(data:AccordionInfo[]) {
     this.jsonData = data;
   }
 }
