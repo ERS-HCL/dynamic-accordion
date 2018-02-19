@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import {AccordionInfo} from "./accordion-info";
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,7 @@ export class AppComponent {
   jsonData:string;
   constructor(private http: Http) { }
   ngOnInit() {
-    this.http.get('../assets/Accordion.json').map((res) => res.json()).subscribe((data) => this.Display(data));
+    this.http.get<AccordionInfo>('../assets/Accordion.json').map((res) => res.json()).subscribe((data) => this.Display(data));
   }
   Display(data:string) {
     this.jsonData = data;
