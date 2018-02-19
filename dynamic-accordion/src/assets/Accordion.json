@@ -1,26 +1,25 @@
-[
-{
-	"heading":"content1",
-	"data":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
-	"status":"open"
-},
-{
-	"heading":"content2",
-	"data":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
-	"status":"close"
-},
-{
-	"heading":"content3",
-	"data":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
-	"status":"close"
-},
-{
-	"heading":"content4",
-	"data":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
-	"status":"close"
-},
-{
-	"heading":"content5",
-	"data":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
-	"status":"close"
-}]
+[{
+    "heading": "content1",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": true,
+  },
+  {
+    "heading": "content2",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  },
+  {
+    "heading": "content3",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  },
+  {
+    "heading": "content4",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  },
+  {
+    "heading": "content5",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis amet corrupti. Neque sit ipsum earum, quidem laborum repellat aliquam.",
+    "status": false
+  }];
