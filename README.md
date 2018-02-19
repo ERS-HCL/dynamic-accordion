@@ -59,3 +59,14 @@ Download the accordion.component and use it in your project.
 
 In accordion we use *NgFor loop to iterate the json Data inside the for loop and then it checks the condition 
 whether is it open or close based on the status using *ngIf.
+
+### Accordion-info Interface
+ jsonData is the input of type accordion-info.
+ ```
+  AccordionInfo {
+      heading:string;
+      data:any;
+      status:boolean;
+ }
+```
+  
