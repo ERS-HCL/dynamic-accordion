@@ -40,7 +40,7 @@ Download the accordion.component and use it in your project.
 
    - **heading** gives the accordion name,
    - **data** gives the information about heading,
-   - **status** while opening the html page whether it is opening state or closing state
+   - **status** while opening the html page whether it is opening state or closing state by declaring true or false.
     
 #### Json location 
 
