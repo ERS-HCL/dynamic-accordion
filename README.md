@@ -34,7 +34,6 @@ Download the accordion.component and use it in your project.
       status:boolean;
  }
 ```
-**_Note : Please refer the Json file in assets folder_**
 
 #### Interface Description
 
