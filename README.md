@@ -1,4 +1,4 @@
-# dynamic accordion using angular and bootstrap 
+# Dynamic Accordion using Angular and Bootstrap 
 
 Dynamic-Accordion component can create dynamic accordion using json data given by the user.
 We can use the accordion component this is a re-usable component.
