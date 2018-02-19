@@ -5,7 +5,7 @@ We can use the accordion component this is a re-usable component.
 
 ## Output Format
 
- <p align='center'><img src="https://github.com/KNVSAIRAM/dynamic-accordion/blob/master/Images/output.jpg"></p>
+ <p align='center'><img src="https://github.com/KNVSAIRAM/dynamic-accordion/blob/master/Images/output1.jpg"></p>
  
  To preview demo of dynamic accorion project, [Click here](https://stackblitz.com/edit/json-to-accordion-angular?embed=1&file=src/app/app.component.html&hideNavigation=1&view=preview)
  
